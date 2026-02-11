@@ -374,6 +374,9 @@ body {
         flex-direction: row;
         height: 130px;
     }
+    .left-cont{
+      width: 320px;
+    }
   
   .playButton,
   .previousButton,
