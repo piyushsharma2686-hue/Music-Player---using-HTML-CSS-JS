@@ -138,7 +138,7 @@ async function main() {
 
       songUl.appendChild(li);
     }
-
+    document.querySelector('.left-cont').style.left = 0;
     let firstSongName = decodeURIComponent(songs[0].split("/").pop());
     playMusic(songs[0], firstSongName);
   });
@@ -184,7 +184,7 @@ async function main() {
 
   document.querySelector('.cross').addEventListener('click',()=>{ document.querySelector('.left-cont').style.left = '-110%' })
 
-  
+
   
   // Volume
   document.querySelector(".range input")
