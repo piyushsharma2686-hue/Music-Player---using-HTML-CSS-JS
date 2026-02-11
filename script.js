@@ -112,7 +112,7 @@ document.querySelector(".seekBar").addEventListener("click", (e) => {
 async function main() {
   await loadAlbums();
 
-  // Album click (event delegation)
+ 
   document.querySelector(".cardCont").addEventListener("click", async (e) => {
     let card = e.target.closest(".card");
     if (!card) return;
@@ -143,7 +143,7 @@ async function main() {
     playMusic(songs[0], firstSongName);
   });
 
-  // Song click
+  
   songUl.addEventListener("click", (e) => {
     const li = e.target.closest("li");
     if (!li) return;
@@ -152,7 +152,7 @@ async function main() {
     playMusic(li.dataset.src, songName);
   });
 
-  // Previous
+ 
   document.querySelector(".previousButton").addEventListener("click", () => {
     if (!currentSongURL) return;
 
@@ -165,7 +165,7 @@ async function main() {
     playMusic(prevSong, songName);
   });
 
-  // Forward
+  
   document.querySelector(".forwardButton").addEventListener("click", () => {
     if (!currentSongURL) return;
 
@@ -178,6 +178,14 @@ async function main() {
     playMusic(nextSong, songName);
   });
 
+
+  // adding event listenr on hamburger 
+  document.querySelector(".hamburger").addEventListener('click',(e)=>{ document.querySelector('.left-cont').style.left = '0%' })
+
+  document.querySelector('.cross').addEventListener('click',()=>{ document.querySelector('.left-cont').style.left = '-110%' })
+
+  
+  
   // Volume
   document.querySelector(".range input")
     .addEventListener("input", (e) => {
