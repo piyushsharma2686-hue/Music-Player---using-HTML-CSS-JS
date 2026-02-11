@@ -391,6 +391,11 @@ body {
   .songInfo {
     width: auto;
   }
+  .songList li {
+    
+    gap: 15px;
+    
+}
   
 }
 
