@@ -1,0 +1,13 @@
+<svg
+  width="40"
+  height="40"
+  viewBox="0 0 56 56"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- White circular background -->
+  <circle cx="28" cy="28" r="26" fill="white" />
+
+  <!-- Pause bars -->
+  <rect x="20" y="17" width="5" height="22" rx="1.5" fill="#111" />
+  <rect x="31" y="17" width="5" height="22" rx="1.5" fill="#111" />
+</svg>

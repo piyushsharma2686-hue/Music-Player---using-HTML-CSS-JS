@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "folder": "Dhurandhar",
+      "title": "Dhurandhar",
+      "description": "Album - Shashwat Sachdev"
+    },
+    {
+      "folder": "Haryanvi-Hits",
+      "title": "Haryanvi Hits",
+      "description": "Trending Haryanvi songs"
+    },
+    {
+      "folder": "Hindi-Hits",
+      "title": "Hindi Hits",
+      "description": "Best Hindi songs"
+    },
+    {
+      "folder": "Punjabi-Hits",
+      "title": "Punjabi Hits",
+      "description": "Best Punjabi songs"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="main-cont flex bgColor">
+      <div class="left-cont">
+        <div class="home bgGrey rounded p-1 m-1">
+          <img src="cross.svg" alt="" class="cross">
+          <img class="invert" src="logo.svg" alt="" />
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bgGrey rounded p-1 m-1">
+          <h2>Your library</h2>
+            <div>
+            <ul class="songList">
+                <!-- <li>
+                    <img class="invert" src="https://ico.hugeicons.com/music-note-03-stroke-rounded@2x.webp?v=1.0.1" alt="">
+                    <div class="info">
+                        <div class="songName">Song Name</div>
+                        <div class="songArtist">Song Artist</div>
+                    </div>
+                    <div class="playNow">
+                        <span>Play Now</span>
+                        <img src="playbutton.svg" alt="">
+                    </div>
+                    
+                </li> -->
+            </ul>
+            </div>
+         
+
+          <div class="footer">
+            <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                >Safety &amp; Privacy</a
+              >
+            </div>
+
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                >Privacy Policy</a
+              >
+            </div>
+
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >Cookies</a
+              >
+            </div>
+
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+            </div>
+
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                >Accessibility</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-cont bgGrey rounded">
+        <div class="header">
+          <div class="nav">
+            <img src="hamburger.svg" alt="" class="hamburger">
+            <img
+              class="invert"
+              src="https://ico.hugeicons.com/arrow-left-01-stroke-rounded@2x.webp?v=1.0.1"
+              alt=""
+            />
+            <img
+              class="invert"
+              src="https://ico.hugeicons.com/arrow-right-01-stroke-rounded@2x.webp?v=1.0.1"
+              alt=""
+            />
+          </div>
+          <div class="buttons">
+            <button class="signupBtn">Sign up</button>
+            <button class="loginBtn">Log in</button>
+          </div>
+        </div>
+        <div class="soptifyPlaylist">
+          <h1>My Playlists</h1>
+          <div class="cardCont">
+            <!-- <div data-folder="Dhurandhar" class="card">
+              <button class="play-btn">▶</button>
+              <img
+                src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div data-folder="Other" class="card">
+              <button class="play-btn">▶</button>
+              <img
+                src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550"
+                alt=""
+              />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div> -->
+          </div>
+           <div class="playBar">
+            <div class="seekBar">
+                <div class="circle">
+
+                </div>
+            </div>
+            <div class="songDetails">
+             <div class="songInfo"></div>
+             <div class="buttons">
+            <img src="previousButton.svg" alt="previous" class="previousButton">
+            <img src="playbutton.svg" alt="play" class="playButton">
+            <img src="forward.svg" alt="forward" class="forwardButton">
+             </div>
+             <div class="timeV">
+            
+            <div class="volume">
+              <img width="24px" class="invert" src="volumeOn.svg" alt="" >
+              <div class="range">
+                <input type="range" name="volume" >
+              </div>
+            </div>
+            <div class="songTimeline"></div>
+            </div>
+            </div>
+           
+        </div>
+        </div>
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

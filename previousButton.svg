@@ -1,0 +1,15 @@
+<svg
+  width="40"
+  height="40"
+  viewBox="0 0 48 48"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="24" fill="rgb(49, 49, 49)"/>
+
+  <!-- Vertical bar -->
+  <rect x="14" y="14" width="4" height="20" fill="#fff7f7"/>
+
+  <!-- Back triangle -->
+  <polygon points="34,14 18,24 34,34" fill="#ffffff"/>
+</svg>
